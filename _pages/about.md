@@ -1,5 +1,5 @@
 ---
-permalink: 
+permalink: /
 title: "Bio"
 excerpt: "About me"
 author_profile: true
@@ -7,11 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-Bio
-======
 I'm a gradute student at Georgia Tech's School of Electrical & Computer Engineering currently advised by Prof. Sam Coogan. I received my Bachelors of Science in Aerospace Engineering from the University of Florida with a minor in mathematics. My current research interests are autonomy, game theory, robotics, space exploration & stochastic systems.
 
 Outside of research, I enjoy cycling, running, and tinkering with hobby electronics. I'm an avid reader of non-fiction books and essays related to space policy, economics, finance, and history. 
 
+Getting started
+======
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+1. Check status by going to the repository settings, in the "GitHub pages" section
 
