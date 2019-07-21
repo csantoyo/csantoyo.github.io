@@ -6,4 +6,4 @@ collection: projects
 
 This project was a collaboration between Cesar Santoyo and Claudia Ciaschi. This project was chosen from a choice of four of projects found [here](http://pvela.gatech.edu/classes/doku.php?id=ece6554:project_planarheli). The source code can be found on csantoyo's [Github repository](https://github.com/csantoyo/ece6554finalproject). If you have any questions, please contact [Cesar Santoyo](mailto:csantoyo@gatech.edu) or [Claudia Ciaschi](mailto:claudia.ciaschi@gmail.com).
 
-The final .pdf write-up of the project can be read [here]().
+The final .pdf write-up of the project can be read [here](http://csantoyo.github.io/files/csantoyo_ece6554.pdf).

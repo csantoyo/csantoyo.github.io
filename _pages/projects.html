@@ -6,18 +6,10 @@ author_profile: true
 ---
 
 {% include base_path %}
-temp1
-{% for i in (1..5) %}
-  {% if i == 4 %}
-    {% break %}
-  {% else %}
-    {{ i }}
-  {% endif %}
-{% endfor %}
+<p><b>Course Projects</b></p>
+<!-- <p><i>ECE6554: Adaptive Control</i></p> -->
 
 {% for post in site.projects %}
-  temp
   {% include archive-single.html %}
 {% endfor %}
 
-temp2
