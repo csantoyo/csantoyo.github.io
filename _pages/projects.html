@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+temp1
+{% for i in (1..5) %}
+  {% if i == 4 %}
+    {% break %}
+  {% else %}
+    {{ i }}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.projects %}
+  temp
+  {% include archive-single.html %}
+{% endfor %}
+
+temp2
