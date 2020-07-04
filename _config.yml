@@ -11,7 +11,7 @@ title                    : "csantoyo"
 title_separator          : "-"
 name                     : &name "Cesar Santoyo"
 description              : &description ""
-url                      : https://csantoyo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://csantoyo.github.io # http://127.0.0.1:4000 #
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "csantoyo/csantoyo.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -48,6 +48,7 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "default", "dirt", "mint", "neon", "plum", "sunrise"
 
 # SEO Related
 google_site_verification :
