@@ -93,7 +93,7 @@
 
 <!-- start custom head snippets -->
 
-<link rel="apple-touch-icon" sizes="57x57" href="http://127.0.0.1:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<!-- <link rel="apple-touch-icon" sizes="57x57" href="http://127.0.0.1:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="http://127.0.0.1:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="http://127.0.0.1:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="76x76" href="http://127.0.0.1:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
@@ -112,8 +112,9 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="http://127.0.0.1:4000/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="http://127.0.0.1:4000/images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#ffffff"> -->
 <link rel="stylesheet" href="http://127.0.0.1:4000/assets/css/academicons.css"/>
+<link rel="stylesheet" href="http://127.0.0.1:4000/assets/css/hover_box.css">
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
@@ -163,12 +164,6 @@
             
             <li class="masthead__menu-item"><a href="http://127.0.0.1:4000/projects/">Projects</a></li>
             
-            
-              
-              <h1></h1>
-            
-            <li class="masthead__menu-item"><a href="http://127.0.0.1:4000/cv/">CV</a></li>
-            
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
@@ -177,6 +172,8 @@
 </div>
 
     
+
+
 
 
 
@@ -255,50 +252,102 @@
   </div>
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Projects">
     
-      <h1 class="page__title">Projects</h1>
     
-    
-<p><b>Course Projects</b></p>
-<!-- <p><i>ECE6554: Adaptive Control</i></p> -->
-
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <div class="page__inner-wrap">
       
-        <a href="http://127.0.0.1:4000/projects/ece6554finalproj/" rel="permalink">ECE6554: Planar Bi-Rotor Helicopter
-</a>
-      
-    </h2>
-    
-    
-
+        <header>
+          <h1 class="page__title" itemprop="headline">Projects
+</h1>
+          
         
+        
+        
+        
+             
+        
+    
+        </header>
+      
 
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>Georgia Tech’s ECE6554 (Adaptive Control) final project.</p>
-</p>
-    
-    
-    
+      <section class="page__content" itemprop="text">
+        
+<p>I have taken part in a variety of course and personal projects during my time at Georgia Tech. Below are a selection of them accompanied with their respetive write-ups.</p>
 
-  </article>
+<h2 id="course-projects">Course Projects</h2>
+
+<div class="projectwrapper">
+  <div id="projectrow">
+    <div id="rowelement2" class="container">
+      <a href="/projects/ece6554finalproj">
+        <img src="/images/projects/proj_quad_ece6554_final.jpg" alt="ece6554" class="image-rounded-corners" />
+        <div class="overlay">
+          <div class="text">Adaptive Control of Planar Bi-Rotor Helicopter</div>
+        </div>
+      </a>
+    </div>
+    <div id="rowelement2" class="container">
+      <a href="/projects/cs7643finalproj">
+        <img src="/images/projects/cs7643.png" alt="cs7643" class="image-rounded-corners" />
+        <div class="overlay">
+          <div class="text">Punctuation Prediction for Audio Speech Transcripts</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="projectrow">
+    <div id="rowelement2" class="container" width="50%">
+      <a href="/projects/ae6354finalproj">
+        <img src="/images/projects/proj_surveil_ae6354.jpg" alt="ae6354" class="image-rounded-corners" />
+        <div class="overlay">
+          <div class="text">Surveillance of Cis-Lunar Space via Space-based Sensor Network</div>
+        </div>
+      </a>
+    </div>
+    <div id="rowelement2" class="container">
+      <a href="/projects/ece6254finalproj">
+        <img src="/images/projects/ece6254.jpg" alt="ece6254" class="image-rounded-corners" />
+        <div class="overlay">
+          <div class="text">Reinforcement Learning for Dynamical Systems</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
 </div>
 
+<h2 id="course-projects">Personal Projects</h2>
+<p>Under Construction</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
 
 
 
-  </div>
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
 </div>
 
 
@@ -334,16 +383,6 @@
 
 
 
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '', 'auto');
-  ga('send', 'pageview');
-</script>
 
 
 
