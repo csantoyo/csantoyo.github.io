@@ -2,14 +2,11 @@
 ---
 /*
  *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
 */
+
+
 // @import "skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "skins/dark"; // "air", "aqua", "contrast", "dark", "default", "dirt", "mint", "neon", "plum", "sunrise"
+@import "skins/darkmix"; // "air", "aqua", "contrast", "dark", "default", "dirt", "mint", "neon", "plum", "sunrise"
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";

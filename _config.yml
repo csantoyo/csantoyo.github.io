@@ -11,7 +11,7 @@ title                    : "csantoyo"
 title_separator          : "-"
 name                     : &name "Cesar Santoyo"
 description              : &description ""
-url                      : https://csantoyo.github.io # http://127.0.0.1:4000 #
+url                      :  http://127.0.0.1:4000 #https://csantoyo.github.io #
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "csantoyo/csantoyo.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -48,7 +48,7 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "default", "dirt", "mint", "neon", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "default", "dirt", "mint", "neon", "plum", "sunrise"
 
 # SEO Related
 google_site_verification :
@@ -74,7 +74,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -85,9 +85,9 @@ author:
   avatar           : "profile.jpg"
   bio              : "NSF Graduate Fellow"
   location         : "Atlanta, GA"
-  employer         :
+  employer         : "Georgia Institue of Technology"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=n_jj0vMAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :

@@ -91,6 +91,8 @@
    ========================================================================== */
 
 .list__item {
+  font-size: medium;
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }

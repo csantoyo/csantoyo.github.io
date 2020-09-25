@@ -10,9 +10,20 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+<h2 id="conference-publications">Conference Publications</h2>
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.pubtype == 'conference' %}
+    {% include archive-publist.html %}
+  {% endif %}
+{% endfor %}
+
+<h2 id="journal-publications">Journal Publications</h2>
+
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'journal' %}
+    {% include archive-publist.html %}
+  {% endif %}
 {% endfor %}
 
 <!-- {% for post in site.publications reversed %}
