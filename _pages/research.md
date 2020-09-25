@@ -3,6 +3,8 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+{% include base_path %}
+
 My research interests are in controls, stochastic systems, optimization, and machine learning with applications to electric vehicle charging and autonomous systems.
 
 
