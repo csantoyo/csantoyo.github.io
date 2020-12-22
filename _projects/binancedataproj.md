@@ -6,16 +6,16 @@ collection: projects
 {% include base_path %}
 
 This project is a hobby project analyzing publiclly available binance data. 
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>  
 
-<h1>A Web Page</h1>
-<p id="browserinfo">A Paragraph</p>
-<p id="demo">Position Par</p>
-
-<button type="button" onclick="getNavigator()">Get Browser info</button>
+Under Construction
+<br>
+<div id="activeplot" style="width:600px;height:300px;"></div>
+<br>
+<div id="inactiveplot" style="width:600px;height:300px;"></div>
 
 <script src="/assets/js/custom/plotdata.js"></script>
-<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
 
 <!-- <script>
 	function getNavigator(){
