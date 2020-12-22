@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/posts/2012/08/blog-post-1/</loc>
-<lastmod>2012-08-14T00:00:00-04:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/projects/ae6354finalproj/</loc>
 </url>
 <url>
@@ -76,9 +72,6 @@
 <loc>http://localhost:4000/teaching/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/markdown_generator/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/files/ae6354finalproject.pdf</loc>
 <lastmod>2020-12-21T22:02:56-05:00</lastmod>
 </url>
@@ -116,10 +109,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/files/srinivasan2020tasktransition.pdf</loc>
-<lastmod>2020-12-21T16:50:30-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/talkmap/map.html</loc>
 <lastmod>2020-12-21T16:50:30-05:00</lastmod>
 </url>
 </urlset>
