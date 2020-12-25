@@ -1,13 +1,17 @@
+// Plot Number of active and inactive symbols on Binance
 $(document).ready(
 	function() {
-   				$.getJSON('https://csantoyo.github.io/files/data/asset_data.json', 
-   					function(jd) {
-   					  let time = jd.time; 
-   					  let active = jd.num_of_active
-   					  let inactive = jd.num_of_inactive
+				// Get JSON file posted on github repo
+   			$.getJSON('https://csantoyo.github.io/files/data/asset_data.json', 
+   				function(jd) {
+
+   					let time = jd.time; 
+   					let active = jd.num_of_active
+   					let inactive = jd.num_of_inactive
 
 					activeplot = document.getElementById('activeplot');
 					inactiveplot = document.getElementById('inactiveplot');
+					
 					var timestr = [];
 					time.forEach(function(item, index, array){
 						var s = new Date(item * 1000).toLocaleDateString("en-US")
