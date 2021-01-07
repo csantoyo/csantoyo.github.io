@@ -1,7 +1,7 @@
 // Plot Number of active and inactive symbols on Binance
 $(document).ready(
 	function() {
-				// Get JSON file posted on github repo
+				// Get JSON file posted on github repo & plot
    			$.getJSON('https://csantoyo.github.io/files/data/asset_data.json', 
    				function(jd) {
 
@@ -42,4 +42,12 @@ $(document).ready(
 					Plotly.newPlot(activeplot, data1, layout1);
 					Plotly.newPlot(inactiveplot, data2, layout2);
    					});
+   			// Get CSV Data
+   			$.ajax({
+   				type: "GET"
+   				url: ""
+   				dataType: "text"
+
+   			});
+
 			});
