@@ -43,11 +43,11 @@ $(document).ready(
 					Plotly.newPlot(inactiveplot, data2, layout2);
    					});
    			// Get CSV Data
-   			$.ajax({
-   				type: "GET"
-   				url: ""
-   				dataType: "text"
+   			// $.ajax({
+   			// 	type: "GET"
+   			// 	url: ""
+   			// 	dataType: "text"
 
-   			});
+   			// });
 
 			});
