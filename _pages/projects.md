@@ -67,3 +67,15 @@ I have taken part in a variety of course and personal projects during my time at
   </div>
 </div>
 
+<!-- <div class="projectwrapper" class="container">
+  <div id="projectrow">
+    <div id="rowelement2" class="container">
+      <a href="/projects/binancedataproj">
+        <img src="/images/projects/binance_data_proj.jpg" alt="binancedataproj" class="image-rounded-corners">
+        <div class="overlay">
+          <div class="text">Binance Data Analysis</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div> -->
