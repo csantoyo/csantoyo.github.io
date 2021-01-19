@@ -29,7 +29,7 @@ $(document).ready(
 								   },
 								   yaxis: {
 								   		title: "Num. of Active Symbols",
-								   		range: [890, 925]}
+								   		range: [890, 935]}
 								};
 					var layout2 = { margin: { t: 0 },
 									xaxis: {
