@@ -1,0 +1,13 @@
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.entrywrapper {
+  display:table;
+  width:100%;
+}
+
+.entryrow {
+  display:table-row;
+}
