@@ -5,14 +5,14 @@ author_profile: true
 ---
 {% include base_path %}
 
-My research interests are in controls, stochastic systems, optimization, and machine learning with applications to electric vehicle charging and autonomous systems.
+My general techincal interests are in controls, stochastic systems, optimization, and machine learning with applications in autonomous and robotic systems.
 
 # Industry Experience
 ## Machine Learning in Safety Critical Applications
-My industry experience is related to the safe application of machine learning in safety critical systems, specifically autonomous vehicles. I have pratical experience in analyzing and verifying machine learning models. I'm particularly interested in the training of models who resultant attributes are production ready. 
+My industry experience is in the safe application of machine learning in safety critical systems, specifically autonomous vehicles. I have pratical experience in analyzing and verifying machine learning models. I'm particularly interested in the training of models whose resultant attributes are production ready.
 
 ## Safe Software Architectures
-While the autonomy components of a system perform much of functional expectations, there exists a need for the design of safet software architectures. In fact, safe software architectures play a pivotal role in handling failures gracefully when the autonomy components of a system encounter an error or are presented within a domain they are not designed to be in. I'm interested in safe software architectures which implement cross-functional contract-based programming and well-defined with particular interested towards failure mode handling.
+While the autonomy components of a system perform much of the required functions, there is a need for the design of safe software architectures for instances when less than nominal situations are encountered. In such cases, safe software architectures play a pivotal role in handling failures gracefully when the autonomy components of a system encounter an error or in instances when the system enters a domain it is not designed to operate in. I'm interested in the design of safe software architectures that are [contract based](https://en.wikipedia.org/wiki/Design_by_contract) with a particular focus in failure mode handling.
 
 # Research 
 ## Analysis and Control of Stochastic Systems
